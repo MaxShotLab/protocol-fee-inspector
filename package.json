@@ -1,0 +1,14 @@
+{
+  "name": "protocol-fee-inspector",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start:env": "PORT=4174 node server.mjs",
+    "start": "node server.mjs",
+    "refresh": "node scripts/refresh.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/test.mjs"
+  }
+}
