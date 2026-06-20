@@ -5,6 +5,12 @@ import { join } from "node:path";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const data = JSON.parse(await readFile(join(root, "public/data.json"), "utf8"));
+const index = await readFile(join(root, "index.html"), "utf8");
+const appSource = await readFile(join(root, "public/app.js"), "utf8");
+
+assert.match(index, /\.\/public\/app\.js/, "Pages must load the app from the repository subpath");
+assert.match(index, /\.\/public\/styles\.css/, "Pages must load styles from the repository subpath");
+assert.match(appSource, /\.\/public\/data\.json/, "Pages must load the static snapshot from the repository subpath");
 
 assert.equal(data.routes.length, 5, "expected five configured vault routes");
 assert.equal(new Set(data.routes.map((route) => route.v1.toLowerCase())).size, 5, "V1 addresses must be unique");

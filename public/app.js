@@ -1,4 +1,6 @@
 const app = document.querySelector("#app");
+const isGithubPages = window.location.hostname.endsWith(".github.io");
+const staticDataUrl = new URL("./public/data.json", document.baseURI).href;
 const state = { data: null, range: "all", chain: "all", token: "all", status: "all", specificDate: "", refreshing: false, chartHoverIndex: null };
 let chartModel = null;
 
@@ -371,7 +373,7 @@ function bindChartControls() {
 async function refreshData() {
   state.refreshing = true; render();
   try {
-    const response = await fetch("/api/refresh", { method: "POST" });
+    const response = await fetch(isGithubPages ? staticDataUrl : "/api/refresh", isGithubPages ? { cache: "no-store" } : { method: "POST" });
     if (!response.ok) throw new Error("refresh failed");
     state.data = await response.json();
   } catch {
@@ -383,8 +385,9 @@ async function refreshData() {
 
 async function loadInitialData() {
   let error;
+  const dataUrls = isGithubPages ? [staticDataUrl] : ["/api/data", staticDataUrl];
   for (let attempt = 0; attempt < 3; attempt += 1) {
-    for (const url of ["/api/data", "/data.json"]) {
+    for (const url of dataUrls) {
       try {
         const response = await fetch(url, { cache: "no-store" });
         if (!response.ok) throw new Error(`${url} returned ${response.status}`);

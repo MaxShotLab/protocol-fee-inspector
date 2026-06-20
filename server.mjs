@@ -45,7 +45,8 @@ createServer(async (req, res) => {
     }
 
     const pathname = req.url === "/" ? "/index.html" : req.url.split("?")[0];
-    const path = normalize(join(pathname === "/index.html" ? root : publicRoot, pathname.replace(/^\//, "")));
+    const publicPathname = pathname.startsWith("/public/") ? pathname.slice("/public".length) : pathname;
+    const path = normalize(join(pathname === "/index.html" ? root : publicRoot, publicPathname.replace(/^\//, "")));
     if (!path.startsWith(root)) return send(res, 403, "Forbidden", "text/plain");
     const body = await readFile(path);
     return send(res, 200, body, types[extname(path)] || "application/octet-stream");
