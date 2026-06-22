@@ -2,6 +2,8 @@
 
 Read-only prototype for retrieving and verifying protocol fee income from five Maxshot Morpho V2 → V1 routes and two Maxshot native omnichain vault ledgers.
 
+See [Fee Income Methodology](docs/fee-income-methodology.md) for the algorithms and formulas used by the inspector.
+
 ## Run
 
 ```bash
