@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:30:25.949Z",
+  "generatedAt": "2026-06-22T17:32:15.087Z",
   "methodology": {
     "source": "Morpho API + Blockscout onchain event indexes",
     "accrued": "Fee shares emitted by MetaMorpho AccrueInterest, valued at the nearest daily USD share price.",
@@ -10,12 +10,12 @@
   },
   "feeRecipient": "0x1C9e043DF27e8A8a142C366D88b9ed1274801D3a",
   "summary": {
-    "accruedUsd": 10384.617566971961,
-    "redeemedUsd": 3600.453094899373,
-    "unredeemedUsd": 6970.348547568455,
-    "pendingUnmintedFeeUsd": 1.6598495893866214,
-    "totalUsd": 10570.801642467824,
-    "estimatedTotalUsd": 10572.461492057213
+    "accruedUsd": 10384.703438929848,
+    "redeemedUsd": 3600.0825366483814,
+    "unredeemedUsd": 6971.089003988168,
+    "pendingUnmintedFeeUsd": 2.9530766014006966,
+    "totalUsd": 10571.171540636547,
+    "estimatedTotalUsd": 10574.12461723795
   },
   "routes": [
     {
@@ -37,17 +37,17 @@
       "mintedFeeShares": "3603363184655463733774",
       "outstandingFeeShares": "65421749103765563377",
       "accruedUsd": 3619.172064971291,
-      "redeemedUsd": 3600.453094899373,
-      "unredeemedUsd": 67.59699802393791,
-      "pendingUnmintedFeeUsd": 0.001560737618582283,
-      "pendingUnmintedFeeShares": "1510513600967015",
-      "pendingInterestAssets": "31220",
-      "pendingFeeAssets": "1561",
+      "redeemedUsd": 3600.0825366483814,
+      "unredeemedUsd": 67.60139295696048,
+      "pendingUnmintedFeeUsd": 0.002240392454333543,
+      "pendingUnmintedFeeShares": "2168156403740009",
+      "pendingInterestAssets": "44839",
+      "pendingFeeAssets": "2241",
       "pendingSource": "direct_rpc",
-      "totalUsd": 3668.050092923311,
-      "estimatedTotalUsd": 3668.0516536609293,
-      "totalAssetsUsd": 76.97413362684662,
-      "latestVerifiedBlock": 25361396,
+      "totalUsd": 3667.6839296053417,
+      "estimatedTotalUsd": 3667.6861699977962,
+      "totalAssetsUsd": 76.97981778564241,
+      "latestVerifiedBlock": 25374547,
       "lastFeeBlock": 25332693,
       "feeEventCount": 176,
       "walletActivityCount": 2,
@@ -314,7 +314,7 @@
         {
           "timestamp": 1767139200,
           "accruedUsd": 0.008258863624642364,
-          "redeemedUsd": 3600.453094899373,
+          "redeemedUsd": 3600.0825366483814,
           "mintedShares": "8115233531050743",
           "redeemedShares": "3537941435551698170397"
         },
@@ -1811,6 +1811,14 @@
         {
           "timestamp": 1781913600,
           "sharePriceUsd": 1.0331358245717164
+        },
+        {
+          "timestamp": 1782000000,
+          "sharePriceUsd": 1.0333001532563677
+        },
+        {
+          "timestamp": 1782086400,
+          "sharePriceUsd": 1.033347133147999
         }
       ],
       "attribution": "Fee-first withdrawal attribution",
@@ -1843,16 +1851,16 @@
       "outstandingFeeShares": "1464469412779152323717",
       "accruedUsd": 1487.6932531232312,
       "redeemedUsd": 0,
-      "unredeemedUsd": 1519.484926010674,
-      "pendingUnmintedFeeUsd": 1.1736924150158672,
-      "pendingUnmintedFeeShares": "1131196902567730972",
-      "pendingInterestAssets": "23478062",
-      "pendingFeeAssets": "1173903",
+      "unredeemedUsd": 1519.679763796022,
+      "pendingUnmintedFeeUsd": 1.9495886002454477,
+      "pendingUnmintedFeeShares": "1878759552229983258",
+      "pendingInterestAssets": "39002366",
+      "pendingFeeAssets": "1950118",
       "pendingSource": "direct_rpc",
-      "totalUsd": 1519.484926010674,
-      "estimatedTotalUsd": 1520.6586184256898,
-      "totalAssetsUsd": 66920.9974794518,
-      "latestVerifiedBlock": 47600233,
+      "totalUsd": 1519.679763796022,
+      "estimatedTotalUsd": 1521.6293523962674,
+      "totalAssetsUsd": 66930.35425031444,
+      "latestVerifiedBlock": 47679433,
       "lastFeeBlock": 47480407,
       "feeEventCount": 528,
       "walletActivityCount": 0,
@@ -3998,6 +4006,14 @@
         {
           "timestamp": 1781913600,
           "sharePriceUsd": 1.0374426859296506
+        },
+        {
+          "timestamp": 1782000000,
+          "sharePriceUsd": 1.0376321480677881
+        },
+        {
+          "timestamp": 1782086400,
+          "sharePriceUsd": 1.0377116141530909
         }
       ],
       "attribution": "Direct fee-share attribution",
@@ -4026,22 +4042,22 @@
       "v2Short": "0x707e…5D41",
       "feeRate": 0.05,
       "v2FeeRate": 0,
-      "mintedFeeShares": "2997156385396411604217",
-      "outstandingFeeShares": "2997156385396411604217",
-      "accruedUsd": 3024.8960840352306,
+      "mintedFeeShares": "2997239581953542120729",
+      "outstandingFeeShares": "2997239581953542120729",
+      "accruedUsd": 3024.9816503639136,
       "redeemedUsd": 0,
-      "unredeemedUsd": 3082.323336350849,
-      "pendingUnmintedFeeUsd": 0.0565728989958101,
-      "pendingUnmintedFeeShares": "55009746533086742",
-      "pendingInterestAssets": "1131675",
-      "pendingFeeAssets": "56583",
+      "unredeemedUsd": 3082.4465187798414,
+      "pendingUnmintedFeeUsd": 0.007668924086003148,
+      "pendingUnmintedFeeShares": "7456934834562569",
+      "pendingInterestAssets": "153423",
+      "pendingFeeAssets": "7671",
       "pendingSource": "direct_rpc",
-      "totalUsd": 3082.323336350849,
-      "estimatedTotalUsd": 3082.379909249845,
-      "totalAssetsUsd": 6677.910360441331,
-      "latestVerifiedBlock": 475591180,
-      "lastFeeBlock": 474703671,
-      "feeEventCount": 563,
+      "totalUsd": 3082.4465187798414,
+      "estimatedTotalUsd": 3082.4541877039273,
+      "totalAssetsUsd": 6673.027573944868,
+      "latestVerifiedBlock": 476223441,
+      "lastFeeBlock": 476092744,
+      "feeEventCount": 564,
       "walletActivityCount": 0,
       "dailyHistory": [
         {
@@ -5092,6 +5108,13 @@
           "accruedUsd": 0.040235280040588114,
           "redeemedUsd": 0,
           "mintedShares": "39131914002465793",
+          "redeemedShares": "0"
+        },
+        {
+          "timestamp": 1782086400,
+          "accruedUsd": 0.0855663286829528,
+          "redeemedUsd": 0,
+          "mintedShares": "83196557130516512",
           "redeemedShares": "0"
         }
       ],
@@ -6251,6 +6274,14 @@
         {
           "timestamp": 1781913600,
           "sharePriceUsd": 1.028345604421734
+        },
+        {
+          "timestamp": 1782000000,
+          "sharePriceUsd": 1.0284730209635364
+        },
+        {
+          "timestamp": 1782086400,
+          "sharePriceUsd": 1.0284840098457277
         }
       ],
       "attribution": "Direct fee-share attribution",
@@ -6283,16 +6314,16 @@
       "outstandingFeeShares": "2226038013193463318527",
       "accruedUsd": 2235.790240071726,
       "redeemedUsd": 0,
-      "unredeemedUsd": 2283.777115823203,
-      "pendingUnmintedFeeUsd": 0.4278377422670061,
-      "pendingUnmintedFeeShares": "417021026774729924",
-      "pendingInterestAssets": "8566167",
-      "pendingFeeAssets": "428308",
+      "unredeemedUsd": 2284.1932530607232,
+      "pendingUnmintedFeeUsd": 0.9935537127121741,
+      "pendingUnmintedFeeShares": "968257974531370110",
+      "pendingInterestAssets": "19892752",
+      "pendingFeeAssets": "994637",
       "pendingSource": "direct_rpc",
-      "totalUsd": 2283.777115823203,
-      "estimatedTotalUsd": 2284.20495356547,
-      "totalAssetsUsd": 61990.89204914167,
-      "latestVerifiedBlock": 25361395,
+      "totalUsd": 2284.1932530607232,
+      "estimatedTotalUsd": 2285.1868067734354,
+      "totalAssetsUsd": 62002.751904074175,
+      "latestVerifiedBlock": 25374546,
       "lastFeeBlock": 25347374,
       "feeEventCount": 161,
       "walletActivityCount": 0,
@@ -7961,6 +7992,14 @@
         {
           "timestamp": 1781913600,
           "sharePriceUsd": 1.0260288775028943
+        },
+        {
+          "timestamp": 1782000000,
+          "sharePriceUsd": 1.0259403330956816
+        },
+        {
+          "timestamp": 1782086400,
+          "sharePriceUsd": 1.0259106680606007
         }
       ],
       "attribution": "Direct fee-share attribution",
@@ -7989,22 +8028,22 @@
       "v2Short": "0xB16F…55F9",
       "feeRate": 0.05,
       "v2FeeRate": 0,
-      "mintedFeeShares": "16985464665230190940",
-      "outstandingFeeShares": "16985464665230190940",
-      "accruedUsd": 17.065924770482912,
+      "mintedFeeShares": "16985767082989201607",
+      "outstandingFeeShares": "16985767082989201607",
+      "accruedUsd": 17.066230399685427,
       "redeemedUsd": 0,
-      "unredeemedUsd": 17.16617135979035,
-      "pendingUnmintedFeeUsd": 0.0001857954893558716,
-      "pendingUnmintedFeeShares": "183839637463100",
-      "pendingInterestAssets": "3725",
-      "pendingFeeAssets": "186",
+      "unredeemedUsd": 17.1680753946208,
+      "pendingUnmintedFeeUsd": 0.00002497190273839732,
+      "pendingUnmintedFeeShares": "24706725348281",
+      "pendingInterestAssets": "505",
+      "pendingFeeAssets": "25",
       "pendingSource": "direct_rpc",
-      "totalUsd": 17.16617135979035,
-      "estimatedTotalUsd": 17.166357155279705,
-      "totalAssetsUsd": 24.481972973097186,
-      "latestVerifiedBlock": 475591162,
-      "lastFeeBlock": 474901019,
-      "feeEventCount": 94,
+      "totalUsd": 17.1680753946208,
+      "estimatedTotalUsd": 17.16810036652354,
+      "totalAssetsUsd": 19.48744161922364,
+      "latestVerifiedBlock": 476223424,
+      "lastFeeBlock": 476092605,
+      "feeEventCount": 95,
       "walletActivityCount": 0,
       "dailyHistory": [
         {
@@ -8320,6 +8359,13 @@
           "accruedUsd": 0.010716664654733412,
           "redeemedUsd": 0,
           "mintedShares": "10604927735709616",
+          "redeemedShares": "0"
+        },
+        {
+          "timestamp": 1782086400,
+          "accruedUsd": 0.0003056292025143667,
+          "redeemedUsd": 0,
+          "mintedShares": "302417759010667",
           "redeemedShares": "0"
         }
       ],
@@ -8927,6 +8973,14 @@
         {
           "timestamp": 1781913600,
           "sharePriceUsd": 1.0107265994850232
+        },
+        {
+          "timestamp": 1782000000,
+          "sharePriceUsd": 1.0105373535494093
+        },
+        {
+          "timestamp": 1782086400,
+          "sharePriceUsd": 1.0106192292218739
         }
       ],
       "attribution": "Direct fee-share attribution",
@@ -9384,689 +9438,694 @@
     {
       "timestamp": 1767139200,
       "accruedUsd": 7984.221973750941,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1767225600,
       "accruedUsd": 8009.432402871742,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1767312000,
       "accruedUsd": 8039.803158792807,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1767484800,
       "accruedUsd": 8150.51834937862,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1767571200,
       "accruedUsd": 8190.289798348503,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1767657600,
       "accruedUsd": 8216.986063916294,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1767744000,
       "accruedUsd": 8269.50218265925,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1767830400,
       "accruedUsd": 8270.829146090788,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1767916800,
       "accruedUsd": 8351.480812766311,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1768003200,
       "accruedUsd": 8408.89066232346,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1768089600,
       "accruedUsd": 8506.995823678271,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1768262400,
       "accruedUsd": 8520.858667624143,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1768348800,
       "accruedUsd": 8676.58525778681,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1768435200,
       "accruedUsd": 8737.555470357143,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1768521600,
       "accruedUsd": 8738.173298093929,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1768867200,
       "accruedUsd": 9058.597171879715,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1768953600,
       "accruedUsd": 9166.861153880285,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1769040000,
       "accruedUsd": 9258.269278346543,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1769126400,
       "accruedUsd": 9338.068284755724,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1769212800,
       "accruedUsd": 9410.633529238596,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1769299200,
       "accruedUsd": 9447.746001107453,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1769385600,
       "accruedUsd": 9526.183185074988,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1769472000,
       "accruedUsd": 9586.295650085713,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1769558400,
       "accruedUsd": 9625.195964922012,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1769644800,
       "accruedUsd": 9721.583009531465,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1769731200,
       "accruedUsd": 9751.958944860833,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1769817600,
       "accruedUsd": 9787.449837229875,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1769904000,
       "accruedUsd": 9794.4208365665,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1769990400,
       "accruedUsd": 9833.396792513475,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1770076800,
       "accruedUsd": 9844.910900949153,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1770163200,
       "accruedUsd": 9859.062840498535,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1770249600,
       "accruedUsd": 9885.326884317143,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1770336000,
       "accruedUsd": 9893.411579786438,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1770422400,
       "accruedUsd": 9903.393091414646,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1770508800,
       "accruedUsd": 9904.767627881827,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1770595200,
       "accruedUsd": 9906.564022672379,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1770768000,
       "accruedUsd": 9909.753699363031,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1770940800,
       "accruedUsd": 9913.26665966974,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1771113600,
       "accruedUsd": 9929.91511342363,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1771200000,
       "accruedUsd": 9935.114954427463,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1771286400,
       "accruedUsd": 9935.823544236058,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1771372800,
       "accruedUsd": 9939.306755960244,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1771459200,
       "accruedUsd": 9942.170929651636,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1771545600,
       "accruedUsd": 9957.0658710507,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1771632000,
       "accruedUsd": 9970.060285892683,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1771718400,
       "accruedUsd": 9970.595060507023,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1771891200,
       "accruedUsd": 9997.109036759532,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1771977600,
       "accruedUsd": 10047.840478792463,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1772064000,
       "accruedUsd": 10048.924782020576,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1772150400,
       "accruedUsd": 10061.757169201263,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1772236800,
       "accruedUsd": 10067.300215396452,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1772496000,
       "accruedUsd": 10087.264949497829,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1772582400,
       "accruedUsd": 10100.188809327656,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1772668800,
       "accruedUsd": 10110.359669065143,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1772755200,
       "accruedUsd": 10114.42504560089,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1772841600,
       "accruedUsd": 10120.388717528867,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1773100800,
       "accruedUsd": 10134.904579567006,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1773273600,
       "accruedUsd": 10154.828643017143,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1773360000,
       "accruedUsd": 10157.128863273465,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1773446400,
       "accruedUsd": 10158.10996337931,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1773619200,
       "accruedUsd": 10162.13385994603,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1773705600,
       "accruedUsd": 10163.86502863225,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1773792000,
       "accruedUsd": 10175.76127177261,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1773878400,
       "accruedUsd": 10175.761598752944,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1773964800,
       "accruedUsd": 10180.077258714784,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1774137600,
       "accruedUsd": 10186.016005895359,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1774224000,
       "accruedUsd": 10186.879113590008,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1774310400,
       "accruedUsd": 10188.811089394974,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1774396800,
       "accruedUsd": 10190.064508099824,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1774483200,
       "accruedUsd": 10192.412429024482,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1774569600,
       "accruedUsd": 10193.644016553228,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1774656000,
       "accruedUsd": 10194.771714705552,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1774742400,
       "accruedUsd": 10197.72961138071,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1774828800,
       "accruedUsd": 10198.41628848402,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1774915200,
       "accruedUsd": 10223.634029532583,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1775001600,
       "accruedUsd": 10225.5958357006,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1775088000,
       "accruedUsd": 10226.855807259197,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1775174400,
       "accruedUsd": 10230.144545273932,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1775260800,
       "accruedUsd": 10231.10869355712,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1775347200,
       "accruedUsd": 10232.326788322738,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1775433600,
       "accruedUsd": 10234.133278303536,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1775520000,
       "accruedUsd": 10235.569194212316,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1775606400,
       "accruedUsd": 10237.481029030383,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1775692800,
       "accruedUsd": 10238.741009815076,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1775779200,
       "accruedUsd": 10240.507907981972,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1775865600,
       "accruedUsd": 10262.283919050422,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1776038400,
       "accruedUsd": 10266.360072471989,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1776124800,
       "accruedUsd": 10268.724057480154,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1776211200,
       "accruedUsd": 10271.128760462541,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1776297600,
       "accruedUsd": 10271.13487193516,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1776384000,
       "accruedUsd": 10284.112063977664,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1776470400,
       "accruedUsd": 10286.856358150351,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1776556800,
       "accruedUsd": 10288.03250296289,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1776729600,
       "accruedUsd": 10305.716670549726,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1776816000,
       "accruedUsd": 10309.146120228905,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1776902400,
       "accruedUsd": 10312.715376786502,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1776988800,
       "accruedUsd": 10312.72555616868,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1777075200,
       "accruedUsd": 10322.907719053004,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1777161600,
       "accruedUsd": 10322.907805028843,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1777248000,
       "accruedUsd": 10326.84008606991,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1777334400,
       "accruedUsd": 10329.522903383877,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1777420800,
       "accruedUsd": 10329.919559117,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1777507200,
       "accruedUsd": 10329.920185935764,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1777766400,
       "accruedUsd": 10329.920546844944,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1777852800,
       "accruedUsd": 10333.107229716754,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1777939200,
       "accruedUsd": 10333.10790657207,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1778198400,
       "accruedUsd": 10341.448568482105,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1778284800,
       "accruedUsd": 10343.322349920032,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1778371200,
       "accruedUsd": 10343.329258039334,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1778457600,
       "accruedUsd": 10343.329496981049,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1778630400,
       "accruedUsd": 10350.606239193652,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1778716800,
       "accruedUsd": 10350.884652473529,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1778803200,
       "accruedUsd": 10353.961201054903,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1778976000,
       "accruedUsd": 10354.834196476855,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1779148800,
       "accruedUsd": 10358.577260633123,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1779235200,
       "accruedUsd": 10360.191589572816,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1779408000,
       "accruedUsd": 10361.268608146898,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1779580800,
       "accruedUsd": 10361.976260662399,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1779753600,
       "accruedUsd": 10364.396934485101,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1779840000,
       "accruedUsd": 10366.608793185302,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1779926400,
       "accruedUsd": 10367.677221056558,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1780358400,
       "accruedUsd": 10369.382934218149,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1780531200,
       "accruedUsd": 10370.442970589977,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1780617600,
       "accruedUsd": 10372.3439500548,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1780704000,
       "accruedUsd": 10372.873701806448,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1780790400,
       "accruedUsd": 10377.808447512554,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1780876800,
       "accruedUsd": 10378.243641164423,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1780963200,
       "accruedUsd": 10379.147091700093,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1781049600,
       "accruedUsd": 10379.437330739118,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1781136000,
       "accruedUsd": 10380.170383488332,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1781222400,
       "accruedUsd": 10380.343074910712,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1781308800,
       "accruedUsd": 10380.727116795784,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1781395200,
       "accruedUsd": 10382.646478107128,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1781568000,
       "accruedUsd": 10383.337188167245,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1781654400,
       "accruedUsd": 10384.395510028837,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
     },
     {
       "timestamp": 1781740800,
       "accruedUsd": 10384.617566971976,
-      "redeemedUsd": 3600.453094899373
+      "redeemedUsd": 3600.0825366483814
+    },
+    {
+      "timestamp": 1782086400,
+      "accruedUsd": 10384.70343892986,
+      "redeemedUsd": 3600.0825366483814
     }
   ],
   "native": {
     "methodology": "Exact fee assets emitted by each Base YieldLedger EpochYieldProcessed event. Values use the stablecoin's 6 decimals; no unfinalized-epoch estimate is included.",
     "summary": {
-      "accruedUsd": 684.8584619999996,
-      "eventCount": 317
+      "accruedUsd": 686.1787219999997,
+      "eventCount": 321
     },
     "vaults": [
       {
@@ -10093,13 +10152,13 @@
         "feeRate": 0.05,
         "feeChainId": 8453,
         "feeChain": "Base",
-        "lastEpochId": "20624",
-        "accruedUsd": 638.7188369999996,
-        "eventCount": 176,
+        "lastEpochId": "20626",
+        "accruedUsd": 639.5665089999997,
+        "eventCount": 178,
         "firstFeeTimestamp": 1765756945,
-        "lastFeeTimestamp": 1781913643,
-        "lastFeeBlock": 47562148,
-        "latestVerifiedBlock": 47600837,
+        "lastFeeTimestamp": 1782086505,
+        "lastFeeBlock": 47648579,
+        "latestVerifiedBlock": 47680090,
         "history": [
           {
             "timestamp": 1765756800,
@@ -10980,6 +11039,16 @@
             "timestamp": 1781913600,
             "feeUsd": 0.414193,
             "cumulativeFeeUsd": 638.7188369999996
+          },
+          {
+            "timestamp": 1782000000,
+            "feeUsd": 0.415777,
+            "cumulativeFeeUsd": 639.1346139999996
+          },
+          {
+            "timestamp": 1782086400,
+            "feeUsd": 0.431895,
+            "cumulativeFeeUsd": 639.5665089999997
           }
         ],
         "checks": {
@@ -11011,13 +11080,13 @@
         "feeRate": 0.05,
         "feeChainId": 42161,
         "feeChain": "Arbitrum",
-        "lastEpochId": "20624",
-        "accruedUsd": 46.13962500000001,
-        "eventCount": 141,
+        "lastEpochId": "20626",
+        "accruedUsd": 46.612213000000004,
+        "eventCount": 143,
         "firstFeeTimestamp": 1768694457,
-        "lastFeeTimestamp": 1781913641,
-        "lastFeeBlock": 47562147,
-        "latestVerifiedBlock": 47600837,
+        "lastFeeTimestamp": 1782086429,
+        "lastFeeBlock": 47648541,
+        "latestVerifiedBlock": 47680090,
         "history": [
           {
             "timestamp": 1768694400,
@@ -11723,6 +11792,16 @@
             "timestamp": 1781913600,
             "feeUsd": 0.197329,
             "cumulativeFeeUsd": 46.13962500000001
+          },
+          {
+            "timestamp": 1782000000,
+            "feeUsd": 0.215163,
+            "cumulativeFeeUsd": 46.354788000000006
+          },
+          {
+            "timestamp": 1782086400,
+            "feeUsd": 0.257425,
+            "cumulativeFeeUsd": 46.612213000000004
           }
         ],
         "checks": {
