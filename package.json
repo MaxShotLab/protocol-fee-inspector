@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node server.mjs",
-    "start:env": "PORT=4174 node server.mjs",
-    "start": "node server.mjs",
-    "refresh": "node scripts/refresh.mjs",
+    "dev": "node --dns-result-order=ipv4first server.mjs",
+    "start:env": "PORT=4174 node --dns-result-order=ipv4first server.mjs",
+    "start": "node --dns-result-order=ipv4first server.mjs",
+    "refresh": "node --dns-result-order=ipv4first scripts/refresh.mjs",
     "build": "node scripts/build.mjs",
     "test": "node scripts/test.mjs"
   }

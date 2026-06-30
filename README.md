@@ -13,6 +13,22 @@ npm run start:env
 
 Open `http://127.0.0.1:4174`.
 
+## Refresh GitHub Pages data
+
+GitHub Pages serves this project as a static site. It cannot run the refresh job itself, so the published dashboard uses the latest committed `public/data.json` snapshot.
+
+To update the live Pages data:
+
+```bash
+npm run refresh
+npm test
+git add public/data.json
+git commit -m "Refresh verified fee data"
+git push
+```
+
+The refresh and local server scripts force Node to prefer IPv4 DNS resolution. This avoids observed IPv6 connection timeouts against `api.morpho.org` while keeping the rest of the refresh logic unchanged.
+
 ## Verification model
 
 - Morpho API supplies vault configuration, V2 → V1 adapter mappings, current share prices, and fee-recipient deposit/withdraw activity.

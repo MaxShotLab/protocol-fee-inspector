@@ -22,7 +22,7 @@ function send(res, status, body, type = "application/json; charset=utf-8") {
 
 function runRefresh() {
   return new Promise((resolve, reject) => {
-    const child = spawn(process.execPath, [join(root, "scripts/refresh.mjs")], { cwd: root });
+    const child = spawn(process.execPath, ["--dns-result-order=ipv4first", join(root, "scripts/refresh.mjs")], { cwd: root });
     let output = "";
     child.stdout.on("data", (chunk) => (output += chunk));
     child.stderr.on("data", (chunk) => (output += chunk));
